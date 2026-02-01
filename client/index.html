@@ -4,16 +4,16 @@
   <title>Collaborative Canvas</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <button id="undoBtn">Undo</button>
-
-
   <canvas id="canvas"></canvas>
 
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="canvas.js"></script>
-  <script src="websocket.js"></script>
-  <script src="main.js"></script>
+  <!-- Socket.IO client -->
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
 
+  <!-- App scripts -->
+  <script src="websocket.js"></script>
+  <script src="canvas.js"></script>
 </body>
 </html>
